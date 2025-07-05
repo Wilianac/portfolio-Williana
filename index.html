@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfólio</title>
+  </head>
+  <body>
+    <!-- Menu de Navegação -->
+
+    <nav class="Navegacao">
+      <ul class="Menu">
+        <li>
+          <a href="#inicio" class="Menu-link"> Início </a>
+        </li>
+
+        <li>
+          <a href="#sobre" class="Menu-link"> Sobre mim </a>
+        </li>
+
+        <li>
+          <a href="#formacaoecertificacoes" class="Menu-link">
+            Formação e Certificações
+          </a>
+        </li>
+
+        <li>
+          <a href="#projetos" class="Menu-link"> Meus Projetos </a>
+        </li>
+
+        <li>
+          <a href="#contato" class="Menu-link"> Contato </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Seções da Página -->
+
+    <main id="inicio" class="cabecalho">
+      <img
+        src="./img/imagemwilliana.jpeg"
+        alt="Foto de Wiliana"
+        class="foto-perfil"
+      />
+      <h1>Wiliana Cristina</h1>
+      <p class="cabecalho-sub-titulo">Desenvolvedora SAP ABAP</p>
+    </main>
+
+    <section id="sobre" class="sobre">
+      <h2 class="sobre-titulo">Sobre mim</h2>
+      <div class="sobre-caixa">
+        <p class="sobre-paragrafo">
+          Sou uma pessoa reservada, mas fico à vontade com quem gosta da minha
+          companhia. Meu interesse por tecnologia começou em uma assistência
+          técnica de notebooks, onde aprendi sobre hardware e software. Depois,
+          tive a oportunidade de crescer em uma empresa multinacional, o que
+          reforçou minha paixão pela área. Gosto de estar com minha família e
+          amigos, mas também valorizo meus momentos sozinha, lendo, vendo
+          séries, fazendo crochê, que é uma das minhas paixões, assistindo
+          futebol e tomando açaí. Sou uma boa ouvinte, uma filha dedicada e uma
+          parceira leal no meu casamento.
+        </p>
+      </div>
+    </section>
+
+    <section id="formacaoecertificacoes" class="formacaoecertificacoes">
+      <h3 class="sobre-formaçao">Formação e Certificações</h3>
+      <div class="sobre-caixa">
+        <p class="formacao-texto">
+          Análise e Desenvolvimento de Sistemas – Cursando atualmente.
+          Fundamentos Tech – (Introdutório em tecnologia, conceitos básicos e
+          lógicos da área) Análise de Dados – (Conceitos de BI, coleta,
+          tratamento e visualização de dados) SAP ABAP – (Linguagem de
+          programação voltada ao sistema SAP, com foco em desenvolvimento).
+          Inglês - básico (UNINTER)
+        </p>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+
+      <div class="projeto">
+        <h3>UX e NO-CODE: Criando Soluções para o Sedentarismo</h3>
+
+        <img
+          src="img/imagem app.png"
+          alt="App Kodular: Soluções para o sedentarismo"
+        />
+
+        <p>
+          Este app foi desenvolvido no <strong>Kodular</strong> e possui um
+          <strong>quiz com 7 perguntas</strong>. As respostas são classificadas
+          como boas, medianas e ruins, gerando um resultado final baseado na
+          pontuação acumulada. O objetivo é ajudar o usuário a se conscientizar
+          sobre os riscos do sedentarismo e estimular hábitos saudáveis.
+        </p>
+
+        <p>
+          <strong>Tecnologias usadas:</strong> Kodular (no-code), lógica
+          condicional em blocos.
+        </p>
+
+        <a
+          href="https://drive.google.com/file/d/1JgqMf9_0IKjfPApaTg8KoK8wJfkUPqRV/view?usp=sharing"
+          target="_blank"
+          >Acessar o App</a
+        >
+      </div>
+    </section>
+
+    <section id="contato" class="Contatos">
+      <h2 class="Contatos-title">Entre em Contato</h2>
+      <form
+        class="formulario-contato"
+        id="formulario"
+        action="https://formspree.io/f/mnnvyapy"
+        method="post"
+      >
+        <div class="grupoform">
+          <input placeholder="Nome" class="campo-form" name="Nome" />
+        </div>
+        <div class="grupoform">
+          <textarea
+            class="campo-form"
+            placeholder="Digite sua Mensagem"
+            name="Mensagem"
+          >
+Digite sua Mensagem </textarea
+          >
+        </div>
+
+        <button type="submit" class="botao-form">Enviar</button>
+      </form>
+    </section>
+  </body>
+</html>
